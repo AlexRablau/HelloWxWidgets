@@ -15,8 +15,6 @@ public:
   virtual bool OnInit();
 };
 
-wxIMPLEMENT_APP(App);
-
 bool App::OnInit()
 {
     MyFrame *frame = new MyFrame();
@@ -24,3 +22,4 @@ bool App::OnInit()
     return true;
 }
 
+wxIMPLEMENT_APP(App);
