@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Remove existing build folder
-rm -r build
+if [ -d "build" ]; then
+  rm -r build
+fi
 
 # Make build folder
 mkdir build
