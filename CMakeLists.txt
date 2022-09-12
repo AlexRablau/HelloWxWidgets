@@ -22,7 +22,7 @@ include_directories(${INC})
 # Add definitions
 
 # Create executable
-add_executable (hello_wx ${SRC}/app.cxx ${SRC}/frame.cxx)
+add_executable (hello_wx_widgets ${SRC}/app.cxx ${SRC}/frame.cxx)
 
 # Link libraries
-target_link_libraries (hello_wx ${wxWidgets_LIBRARIES})
+target_link_libraries (hello_wx_widgets ${wxWidgets_LIBRARIES})
